@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "identicole-angular": {
+    "encuentratucole-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "identicole-angular:build:production"
+              "buildTarget": "encuentratucole-angular:build:production"
             },
             "development": {
-              "buildTarget": "identicole-angular:build:development"
+              "buildTarget": "encuentratucole-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
